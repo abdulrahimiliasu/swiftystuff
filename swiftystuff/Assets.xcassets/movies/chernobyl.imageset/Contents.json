@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "chernobyl.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
