@@ -42,7 +42,6 @@ struct MovieDetailsView: View {
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }
-        .padding()
     }
 }
 

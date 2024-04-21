@@ -34,7 +34,7 @@ struct GradientBlurView: View {
                 }
             }
         }
-        .scrollTargetBehavior(.viewAligned)
+        .scrollTargetBehavior(.viewAligned(limitBehavior: .always))
         .scrollClipDisabled()
         .scrollIndicators(.hidden)
     }
