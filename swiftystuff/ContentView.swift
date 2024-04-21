@@ -15,7 +15,10 @@ struct ContentView: View {
                     GradientBlurView()
                 }
                 NavigationLink("Alert Modal") {
-                    Text("In progress ...")
+                    AlertModalView()
+                }
+                NavigationLink("Vertical Scroll View") {
+                    VerticalScrollingView()
                 }
             }
             .navigationTitle("Swifty Stuff")
@@ -26,4 +29,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(AlertManager())
 }
