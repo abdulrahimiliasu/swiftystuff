@@ -20,6 +20,9 @@ struct ContentView: View {
                 NavigationLink("Vertical Scroll View") {
                     VerticalScrollingView()
                 }
+                NavigationLink("TabBar View") {
+                    TabBarView()
+                }
             }
             .navigationTitle("Swifty Stuff")
             .navigationBarTitleDisplayMode(.inline)
