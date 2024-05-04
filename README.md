@@ -1,8 +1,11 @@
 #  Swifty Stuff
 
-Collection of all the cool stuff I implemented with Swift UI.
+### Collection of all the cool stuff I implemented with Swift UI.
 
-Note: Non of these components were tested for production use, this is just for a demo
+**Note: Non of these components were tested for production use, this is just for a demo (UI/UX concepts)**
+
+[Custom Tab Bar](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/tabbar)  
+![Custom Tab Bar GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/tab_bar.gif?raw=true).  
 
 [Movies Gradient Blur](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/gradientblur)  
 ![Movies gradient blur demo GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/movies_gradient_blur.gif?raw=true).  

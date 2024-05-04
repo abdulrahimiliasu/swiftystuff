@@ -35,6 +35,7 @@
 		48D186752BE68342000A70AD /* TabButtonLabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D186742BE68342000A70AD /* TabButtonLabelsView.swift */; };
 		48D186772BE6B1E4000A70AD /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D186762BE6B1E4000A70AD /* TabBar.swift */; };
 		48D186792BE6B9AD000A70AD /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D186782BE6B9AD000A70AD /* Tabs.swift */; };
+		48D1867B2BE6C02D000A70AD /* tab_bar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 48D1867A2BE6C02D000A70AD /* tab_bar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		48D186742BE68342000A70AD /* TabButtonLabelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonLabelsView.swift; sourceTree = "<group>"; };
 		48D186762BE6B1E4000A70AD /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		48D186782BE6B9AD000A70AD /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		48D1867A2BE6C02D000A70AD /* tab_bar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tab_bar.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		481100CE2BD86A1A00AF45D4 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				48D1867A2BE6C02D000A70AD /* tab_bar.gif */,
 				481100D12BD86A2C00AF45D4 /* alert_modal.gif */,
 				481100CF2BD86A2C00AF45D4 /* movies_gradient_blur.gif */,
 				481100D02BD86A2C00AF45D4 /* vertical_scroll.gif */,
@@ -241,6 +244,7 @@
 			files = (
 				481100D22BD86A2C00AF45D4 /* movies_gradient_blur.gif in Resources */,
 				48D0A9532B5DC86A00E002FC /* Preview Assets.xcassets in Resources */,
+				48D1867B2BE6C02D000A70AD /* tab_bar.gif in Resources */,
 				48D0A9502B5DC86A00E002FC /* Assets.xcassets in Resources */,
 				481100D32BD86A2C00AF45D4 /* vertical_scroll.gif in Resources */,
 				481100D42BD86A2C00AF45D4 /* alert_modal.gif in Resources */,
