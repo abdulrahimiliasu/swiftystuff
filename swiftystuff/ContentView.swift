@@ -23,6 +23,9 @@ struct ContentView: View {
                 NavigationLink("TabBar View") {
                     TabBarView()
                 }
+                NavigationLink("Animated Background View") {
+                    AnimatedBackgroundView()
+                }
             }
             .navigationTitle("Swifty Stuff")
             .navigationBarTitleDisplayMode(.inline)
