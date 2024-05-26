@@ -23,6 +23,7 @@
 		485E3C762BDDB31C00997A56 /* TabButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */; };
 		48C29D8B2C037A460004B39C /* ToggleAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */; };
 		48C29D8D2C03B4BF0004B39C /* animated_background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 48C29D8C2C03B4BF0004B39C /* animated_background.gif */; };
+		48C29D8F2C03B58C0004B39C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C29D8E2C03B58C0004B39C /* Utils.swift */; };
 		48D0A94C2B5DC86800E002FC /* swiftystuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0A94B2B5DC86800E002FC /* swiftystuffApp.swift */; };
 		48D0A94E2B5DC86800E002FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0A94D2B5DC86800E002FC /* ContentView.swift */; };
 		48D0A9502B5DC86A00E002FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D0A94F2B5DC86A00E002FC /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonStyle.swift; sourceTree = "<group>"; };
 		48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAnimationButton.swift; sourceTree = "<group>"; };
 		48C29D8C2C03B4BF0004B39C /* animated_background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animated_background.gif; sourceTree = "<group>"; };
+		48C29D8E2C03B58C0004B39C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		48D0A9482B5DC86800E002FC /* swiftystuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftystuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D0A94B2B5DC86800E002FC /* swiftystuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftystuffApp.swift; sourceTree = "<group>"; };
 		48D0A94D2B5DC86800E002FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				48D1867D2BE7B2A8000A70AD /* AnimatedBackgroundView.swift */,
 				48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */,
+				48C29D8E2C03B58C0004B39C /* Utils.swift */,
 			);
 			path = animatedbackground;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				480376762BD40C520051ABA8 /* ModalContentView.swift in Sources */,
 				48D186752BE68342000A70AD /* TabButtonLabelsView.swift in Sources */,
 				48D0A94E2B5DC86800E002FC /* ContentView.swift in Sources */,
+				48C29D8F2C03B58C0004B39C /* Utils.swift in Sources */,
 				48D0A97F2B5DCC5E00E002FC /* MovieDetailsView.swift in Sources */,
 				48D186772BE6B1E4000A70AD /* TabBar.swift in Sources */,
 				4803766A2BD3FE390051ABA8 /* VerticalScrollingView.swift in Sources */,
