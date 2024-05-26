@@ -4,6 +4,9 @@
 
 **Note: Non of these components were tested for production use, this is just for a demo (UI/UX concepts)**
 
+[Animated Background](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/animatedbackground)  
+![Animated Backgound GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/animated_background.gif?raw=true).  
+
 [Custom Tab Bar](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/tabbar)  
 ![Custom Tab Bar GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/tab_bar.gif?raw=true).  
 

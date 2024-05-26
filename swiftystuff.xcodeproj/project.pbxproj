@@ -22,6 +22,7 @@
 		485E3C742BDDB21900997A56 /* TabItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E3C732BDDB21800997A56 /* TabItemModel.swift */; };
 		485E3C762BDDB31C00997A56 /* TabButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */; };
 		48C29D8B2C037A460004B39C /* ToggleAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */; };
+		48C29D8D2C03B4BF0004B39C /* animated_background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 48C29D8C2C03B4BF0004B39C /* animated_background.gif */; };
 		48D0A94C2B5DC86800E002FC /* swiftystuffApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0A94B2B5DC86800E002FC /* swiftystuffApp.swift */; };
 		48D0A94E2B5DC86800E002FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0A94D2B5DC86800E002FC /* ContentView.swift */; };
 		48D0A9502B5DC86A00E002FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D0A94F2B5DC86A00E002FC /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		485E3C732BDDB21800997A56 /* TabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemModel.swift; sourceTree = "<group>"; };
 		485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonStyle.swift; sourceTree = "<group>"; };
 		48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAnimationButton.swift; sourceTree = "<group>"; };
+		48C29D8C2C03B4BF0004B39C /* animated_background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animated_background.gif; sourceTree = "<group>"; };
 		48D0A9482B5DC86800E002FC /* swiftystuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftystuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D0A94B2B5DC86800E002FC /* swiftystuffApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftystuffApp.swift; sourceTree = "<group>"; };
 		48D0A94D2B5DC86800E002FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		481100CE2BD86A1A00AF45D4 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				48C29D8C2C03B4BF0004B39C /* animated_background.gif */,
 				48D1867A2BE6C02D000A70AD /* tab_bar.gif */,
 				481100D12BD86A2C00AF45D4 /* alert_modal.gif */,
 				481100CF2BD86A2C00AF45D4 /* movies_gradient_blur.gif */,
@@ -261,6 +264,7 @@
 				48D1867B2BE6C02D000A70AD /* tab_bar.gif in Resources */,
 				48D0A9502B5DC86A00E002FC /* Assets.xcassets in Resources */,
 				481100D32BD86A2C00AF45D4 /* vertical_scroll.gif in Resources */,
+				48C29D8D2C03B4BF0004B39C /* animated_background.gif in Resources */,
 				481100D42BD86A2C00AF45D4 /* alert_modal.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
