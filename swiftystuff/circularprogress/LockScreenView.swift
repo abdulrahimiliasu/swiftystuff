@@ -9,7 +9,15 @@ import SwiftUI
 
 struct LockScreenView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GeometryReader { proxy in
+            VStack(spacing: 20) {
+                Image(systemName: "lock.fill")
+                Text("15:43")
+                    .font(.system(size: 80, design: .rounded))
+                Spacer()
+            }
+            .frame(width: proxy.size.width, height: proxy.size.height)
+        }
     }
 }
 
