@@ -19,6 +19,11 @@
 		481100D22BD86A2C00AF45D4 /* movies_gradient_blur.gif in Resources */ = {isa = PBXBuildFile; fileRef = 481100CF2BD86A2C00AF45D4 /* movies_gradient_blur.gif */; };
 		481100D32BD86A2C00AF45D4 /* vertical_scroll.gif in Resources */ = {isa = PBXBuildFile; fileRef = 481100D02BD86A2C00AF45D4 /* vertical_scroll.gif */; };
 		481100D42BD86A2C00AF45D4 /* alert_modal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 481100D12BD86A2C00AF45D4 /* alert_modal.gif */; };
+		4840C43E2C0B33CB000C2D3C /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C43D2C0B33CB000C2D3C /* CircularProgressView.swift */; };
+		4840C4402C0CFA45000C2D3C /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C43F2C0CFA45000C2D3C /* LockScreenView.swift */; };
+		4840C4422C0CFABB000C2D3C /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C4412C0CFABB000C2D3C /* AnimationModel.swift */; };
+		4840C4462C0D2951000C2D3C /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C4452C0D2951000C2D3C /* CircularProgress.swift */; };
+		4840C4482C0D2DF2000C2D3C /* BoltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C4472C0D2DF2000C2D3C /* BoltView.swift */; };
 		485E3C742BDDB21900997A56 /* TabItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E3C732BDDB21800997A56 /* TabItemModel.swift */; };
 		485E3C762BDDB31C00997A56 /* TabButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */; };
 		48C29D8B2C037A460004B39C /* ToggleAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */; };
@@ -55,6 +60,11 @@
 		481100CF2BD86A2C00AF45D4 /* movies_gradient_blur.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = movies_gradient_blur.gif; sourceTree = "<group>"; };
 		481100D02BD86A2C00AF45D4 /* vertical_scroll.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = vertical_scroll.gif; sourceTree = "<group>"; };
 		481100D12BD86A2C00AF45D4 /* alert_modal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alert_modal.gif; sourceTree = "<group>"; };
+		4840C43D2C0B33CB000C2D3C /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		4840C43F2C0CFA45000C2D3C /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		4840C4412C0CFABB000C2D3C /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
+		4840C4452C0D2951000C2D3C /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		4840C4472C0D2DF2000C2D3C /* BoltView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoltView.swift; sourceTree = "<group>"; };
 		485E3C732BDDB21800997A56 /* TabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemModel.swift; sourceTree = "<group>"; };
 		485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonStyle.swift; sourceTree = "<group>"; };
 		48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAnimationButton.swift; sourceTree = "<group>"; };
@@ -139,6 +149,18 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
+		4840C43C2C0B33B5000C2D3C /* circularprogress */ = {
+			isa = PBXGroup;
+			children = (
+				4840C43D2C0B33CB000C2D3C /* CircularProgressView.swift */,
+				4840C43F2C0CFA45000C2D3C /* LockScreenView.swift */,
+				4840C4412C0CFABB000C2D3C /* AnimationModel.swift */,
+				4840C4452C0D2951000C2D3C /* CircularProgress.swift */,
+				4840C4472C0D2DF2000C2D3C /* BoltView.swift */,
+			);
+			path = circularprogress;
+			sourceTree = "<group>";
+		};
 		48D0A93F2B5DC86800E002FC = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +182,7 @@
 		48D0A94A2B5DC86800E002FC /* swiftystuff */ = {
 			isa = PBXGroup;
 			children = (
+				4840C43C2C0B33B5000C2D3C /* circularprogress */,
 				48D1867C2BE7B28F000A70AD /* animatedbackground */,
 				480376682BD3FDEF0051ABA8 /* verticalscrollview */,
 				480376672BD3F3410051ABA8 /* alertmodal */,
@@ -280,13 +303,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				480376802BD5982F0051ABA8 /* TabBarView.swift in Sources */,
+				4840C43E2C0B33CB000C2D3C /* CircularProgressView.swift in Sources */,
 				4803766E2BD401BD0051ABA8 /* WordDetailsView.swift in Sources */,
+				4840C4402C0CFA45000C2D3C /* LockScreenView.swift in Sources */,
 				480376762BD40C520051ABA8 /* ModalContentView.swift in Sources */,
 				48D186752BE68342000A70AD /* TabButtonLabelsView.swift in Sources */,
+				4840C4422C0CFABB000C2D3C /* AnimationModel.swift in Sources */,
 				48D0A94E2B5DC86800E002FC /* ContentView.swift in Sources */,
 				48C29D8F2C03B58C0004B39C /* Utils.swift in Sources */,
 				48D0A97F2B5DCC5E00E002FC /* MovieDetailsView.swift in Sources */,
 				48D186772BE6B1E4000A70AD /* TabBar.swift in Sources */,
+				4840C4482C0D2DF2000C2D3C /* BoltView.swift in Sources */,
 				4803766A2BD3FE390051ABA8 /* VerticalScrollingView.swift in Sources */,
 				485E3C762BDDB31C00997A56 /* TabButtonStyle.swift in Sources */,
 				480376722BD4079F0051ABA8 /* AlertManager.swift in Sources */,
@@ -301,6 +328,7 @@
 				4803767A2BD441570051ABA8 /* AlertModalWrapper.swift in Sources */,
 				485E3C742BDDB21900997A56 /* TabItemModel.swift in Sources */,
 				48D0A97D2B5DCBF500E002FC /* ProfileView.swift in Sources */,
+				4840C4462C0D2951000C2D3C /* CircularProgress.swift in Sources */,
 				48D0A9792B5DCA1800E002FC /* Model.swift in Sources */,
 				48D1867E2BE7B2A8000A70AD /* AnimatedBackgroundView.swift in Sources */,
 				48D186792BE6B9AD000A70AD /* Tabs.swift in Sources */,
