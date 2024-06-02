@@ -4,6 +4,9 @@
 
 **Note: Non of these components were tested for production use, this is just for a demo (UI/UX concepts)**
 
+[Magsafe Circular Progress](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/circularprogress)  
+![Magsafe Circular Progress GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/circular_progress.gif?raw=true).  
+
 [Animated Background](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/animatedbackground)  
 ![Animated Backgound GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/animated_background.gif?raw=true).  
 
