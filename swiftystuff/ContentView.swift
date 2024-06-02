@@ -26,6 +26,9 @@ struct ContentView: View {
                 NavigationLink("Animated Background View") {
                     AnimatedBackgroundView()
                 }
+                NavigationLink("Circular Progress View") {
+                    CircularProgressView()
+                }
             }
             .navigationTitle("Swifty Stuff")
             .navigationBarTitleDisplayMode(.inline)
