@@ -35,9 +35,10 @@ struct AlertDurationIndicator: View {
 }
 
 struct AlertBody: View {
+    @Environment(\.alertModal) var alertModal: AlertManager
+
     let modal: AlertModal
     let duration: TimeInterval
-    // TODO: Dismiss after duration
 
     var body: some View {
         VStack(spacing: 20) {
@@ -58,25 +59,30 @@ struct AlertBody: View {
             }
             // TODO: Add onAction Button
         }
+        .interactiveDismissDisabled(true)
+        .onAppear(perform: {
+            DispatchQueue.main.asyncAfter(deadline: .now() + duration * 5) {
+                alertModal.hide()
+            }
+        })
     }
 }
 
 struct ModalContentView: View {
-    @EnvironmentObject var alert: AlertManager
+    let modal: AlertModalType
 
     var body: some View {
-        AlertBody(modal: alert.modal, duration: 0.5)
-            .presentationBackgroundInteraction(.disabled)
-            .presentationBackground(.linearGradient(colors: [Color.clear, alert.modal.color.opacity(0.2)], startPoint: .top, endPoint: .bottom))
+        AlertBody(modal: modal.value, duration: 0.5)
+            .presentationBackground(.linearGradient(colors: [Color.clear, modal.value.color.opacity(0.2)], startPoint: .top, endPoint: .bottom))
             .presentationDetents([.height(290)])
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("bgColor"))
             .clipShape(.rect(cornerRadius: 30.0))
+            .presentationBackgroundInteraction(.disabled)
             .padding()
     }
 }
 
 #Preview {
-    ModalContentView()
-        .environmentObject(AlertManager())
+    ModalContentView(modal: .info)
 }
