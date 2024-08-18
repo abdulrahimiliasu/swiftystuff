@@ -30,7 +30,9 @@ struct CircularProgressView: View {
                 Spacer()
                 Button("Toggle animation") { animateCircularProgress() }
                     .foregroundStyle(.primary)
-                    .phaseAnimator([0, 10], content: { content, phase in content.offset(y: phase) }, animation: { _ in .easeInOut.speed(0.5) })
+                    .phaseAnimator([0, 10], content: { content, phase in
+                        content.offset(y: phase)
+                    }, animation: { _ in .easeInOut.speed(0.5) })
             }
         }
     }
