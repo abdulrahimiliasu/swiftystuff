@@ -8,18 +8,28 @@
 import SwiftUI
 
 struct ShowModalView: View {
-    @EnvironmentObject var alertModal: AlertManager
+    @Environment(\.alertModal) var alertModal: AlertManager
 
     var body: some View {
-        HStack {
-            Button { alertModal.showAlert(.success) } label: { Text("Success") }.tint(.green)
-            Button { alertModal.showAlert(.error) } label: { Text("Error") }.tint(.red)
-            Button { alertModal.showAlert(.warning) } label: { Text("Warning") }.tint(.orange)
-            Button { alertModal.showAlert(.info) } label: { Text("Info") }.tint(.blue)
+        NavigationStack {
+            VStack(spacing: 50) {
+                HStack {
+                    Button { alertModal.show(.success) } label: { Text("Success") }.tint(.green)
+                    Button { alertModal.show(.error) } label: { Text("Error") }.tint(.red)
+                    Button { alertModal.show(.warning) } label: { Text("Warning") }.tint(.orange)
+                    Button { alertModal.show(.info) } label: { Text("Info") }.tint(.blue)
+                }
+                .buttonStyle(.bordered)
+
+                NavigationLink("Navigate") {
+                    Button {
+                        alertModal.show(.custom(color: .purple, heading: "Custom", subHeading: "try some custom stuff!", icon: "circle"))
+                    } label: { Text("Custom") }.tint(.purple)
+                }
+            }
+
+            .padding()
         }
-        .buttonStyle(.bordered)
-        .padding()
-        .withAlertModal(isPresented: $alertModal.isModalPresented)
     }
 }
 
@@ -34,5 +44,4 @@ struct AlertModalView: View {
 
 #Preview {
     AlertModalView()
-        .environmentObject(AlertManager())
 }

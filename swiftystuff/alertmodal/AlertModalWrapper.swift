@@ -9,20 +9,17 @@ import SwiftUI
 
 struct WithAlertModal<Content>: View where Content: View {
     @ViewBuilder var content: () -> Content
-    @StateObject private var observer: AlertManager = .init()
+    @State private var alertModal: AlertModalType?
 
     var body: some View {
         ZStack {
             content()
         }
-        .environmentObject(observer)
-    }
-}
-
-extension View {
-    func withAlertModal(isPresented: Binding<Bool>) -> some View {
-        sheet(isPresented: isPresented) {
-            ModalContentView()
-        }
+        .sheet(item: $alertModal) { modal in ModalContentView(modal: modal) }
+        .environment(\.alertModal, AlertManager(show: { modal in
+            alertModal = modal
+        }, hide: {
+            alertModal = nil
+        }))
     }
 }
