@@ -32,6 +32,10 @@
 		4840C44A2C0D353B000C2D3C /* circular_progress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4840C4492C0D353B000C2D3C /* circular_progress.gif */; };
 		485E3C742BDDB21900997A56 /* TabItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E3C732BDDB21800997A56 /* TabItemModel.swift */; };
 		485E3C762BDDB31C00997A56 /* TabButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */; };
+		48697E6C2C8C95650093A14E /* RevealingButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48697E6B2C8C95650093A14E /* RevealingButtonModifier.swift */; };
+		48697E6E2C8C97600093A14E /* ButtonCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48697E6D2C8C97600093A14E /* ButtonCircularProgressView.swift */; };
+		48697E702C8C9BC40093A14E /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48697E6F2C8C9BC40093A14E /* ButtonsView.swift */; };
+		48C27F982C751C3A00CB672D /* RevealingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C27F972C751C3A00CB672D /* RevealingButtonView.swift */; };
 		48C29D8B2C037A460004B39C /* ToggleAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */; };
 		48C29D8D2C03B4BF0004B39C /* animated_background.gif in Resources */ = {isa = PBXBuildFile; fileRef = 48C29D8C2C03B4BF0004B39C /* animated_background.gif */; };
 		48C29D8F2C03B58C0004B39C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C29D8E2C03B58C0004B39C /* Utils.swift */; };
@@ -80,6 +84,10 @@
 		4840C4492C0D353B000C2D3C /* circular_progress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = circular_progress.gif; sourceTree = "<group>"; };
 		485E3C732BDDB21800997A56 /* TabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemModel.swift; sourceTree = "<group>"; };
 		485E3C752BDDB31B00997A56 /* TabButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonStyle.swift; sourceTree = "<group>"; };
+		48697E6B2C8C95650093A14E /* RevealingButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealingButtonModifier.swift; sourceTree = "<group>"; };
+		48697E6D2C8C97600093A14E /* ButtonCircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCircularProgressView.swift; sourceTree = "<group>"; };
+		48697E6F2C8C9BC40093A14E /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		48C27F972C751C3A00CB672D /* RevealingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealingButtonView.swift; sourceTree = "<group>"; };
 		48C29D8A2C037A460004B39C /* ToggleAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleAnimationButton.swift; sourceTree = "<group>"; };
 		48C29D8C2C03B4BF0004B39C /* animated_background.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animated_background.gif; sourceTree = "<group>"; };
 		48C29D8E2C03B58C0004B39C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -185,6 +193,17 @@
 			path = circularprogress;
 			sourceTree = "<group>";
 		};
+		48C27F962C751C2300CB672D /* revealingbutton */ = {
+			isa = PBXGroup;
+			children = (
+				48C27F972C751C3A00CB672D /* RevealingButtonView.swift */,
+				48697E6B2C8C95650093A14E /* RevealingButtonModifier.swift */,
+				48697E6D2C8C97600093A14E /* ButtonCircularProgressView.swift */,
+				48697E6F2C8C9BC40093A14E /* ButtonsView.swift */,
+			);
+			path = revealingbutton;
+			sourceTree = "<group>";
+		};
 		48D0A93F2B5DC86800E002FC = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +225,7 @@
 		48D0A94A2B5DC86800E002FC /* swiftystuff */ = {
 			isa = PBXGroup;
 			children = (
+				48C27F962C751C2300CB672D /* revealingbutton */,
 				48F84EBF2C5E608900C3D5F7 /* horizontalslider */,
 				4829EBF92C282A8500DF52CE /* scrollingstackview */,
 				4840C43C2C0B33B5000C2D3C /* circularprogress */,
@@ -351,6 +371,7 @@
 				48C29D8F2C03B58C0004B39C /* Utils.swift in Sources */,
 				48D0A97F2B5DCC5E00E002FC /* MovieDetailsView.swift in Sources */,
 				48D186772BE6B1E4000A70AD /* TabBar.swift in Sources */,
+				48697E6C2C8C95650093A14E /* RevealingButtonModifier.swift in Sources */,
 				4840C4482C0D2DF2000C2D3C /* BoltView.swift in Sources */,
 				4803766A2BD3FE390051ABA8 /* VerticalScrollingView.swift in Sources */,
 				485E3C762BDDB31C00997A56 /* TabButtonStyle.swift in Sources */,
@@ -360,12 +381,15 @@
 				480376742BD40B070051ABA8 /* AlertModalView.swift in Sources */,
 				48C29D8B2C037A460004B39C /* ToggleAnimationButton.swift in Sources */,
 				481FFBF12C723C43007F1559 /* TargetIndicatorView.swift in Sources */,
+				48C27F982C751C3A00CB672D /* RevealingButtonView.swift in Sources */,
 				48D0A9772B5DC9F800E002FC /* GradientBlurView.swift in Sources */,
 				4803767C2BD47C700051ABA8 /* AlertModal.swift in Sources */,
+				48697E6E2C8C97600093A14E /* ButtonCircularProgressView.swift in Sources */,
 				48D0A94C2B5DC86800E002FC /* swiftystuffApp.swift in Sources */,
 				48D186732BE67DB4000A70AD /* TabScrollContentView.swift in Sources */,
 				48D0A9812B5DCD7C00E002FC /* DetailsButton.swift in Sources */,
 				48F84EC12C5E609F00C3D5F7 /* HorizontalSlider.swift in Sources */,
+				48697E702C8C9BC40093A14E /* ButtonsView.swift in Sources */,
 				4803767A2BD441570051ABA8 /* AlertModalWrapper.swift in Sources */,
 				485E3C742BDDB21900997A56 /* TabItemModel.swift in Sources */,
 				48D0A97D2B5DCBF500E002FC /* ProfileView.swift in Sources */,

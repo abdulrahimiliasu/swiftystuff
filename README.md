@@ -2,7 +2,17 @@
 
 ### Collection of all the cool stuff I implemented with Swift UI.
 
+
 **Note: Non of these components were tested for production use, this is just for a demo (UI/UX concepts)**
+
+[Revealing Button](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/revealingbutton)  
+![Revealing Button GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/revealing_button.gif?raw=true).
+
+[Horizontal Slider](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/horizontalslider)  
+![Horizontal Slider GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/horizontal_slider.gif?raw=true).
+
+[Scrolling Stack](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/scrollingstackview)  
+![Scrolling Stack GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/scrolling_stack.gif?raw=true).
 
 [Magsafe Circular Progress](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/circularprogress)  
 ![Magsafe Circular Progress GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/circular_progress.gif?raw=true).  
