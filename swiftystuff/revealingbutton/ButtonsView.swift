@@ -28,6 +28,7 @@ private struct IconButton: View {
         Button(text, systemImage: systemImage) {}
             .foregroundStyle(color)
             .padding(10)
+            .labelStyle(.iconOnly)
             .background(Circle().foregroundStyle(color.opacity(0.2)))
     }
 }

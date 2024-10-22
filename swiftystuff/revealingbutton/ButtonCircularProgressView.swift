@@ -8,18 +8,13 @@
 import SwiftUI
 
 struct ButtonCircularProgressView: View {
-    let isPressing: Bool
-    let isShowing: Bool
-
-    init(_ isPressing: Bool, _ isShowing: Bool) {
-        self.isPressing = isPressing
-        self.isShowing = isShowing
-    }
+    @Binding var isPressing: Bool
+    @Binding var isShowing: Bool
 
     var body: some View {
         Circle()
             .rotation(.degrees(270))
-            .trim(from: 0.0, to: isPressing ? 1.2 : 0.0)
+            .trim(from: 0.0, to: isPressing || isShowing ? 1.2 : 0.0)
             .stroke(style: .init(lineWidth: 2, lineCap: .round))
             .foregroundStyle(isPressing ? .green : .orange)
             .opacity(isShowing && !isPressing ? 0 : 1)

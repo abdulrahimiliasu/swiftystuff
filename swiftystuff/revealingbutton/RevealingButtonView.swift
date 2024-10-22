@@ -14,20 +14,21 @@ struct RevealingButtonView: View {
 
     let gestureDuration = 1.0
 
-    func toggleShowButtons() {
+    func handleGestureFinished() {
         withAnimation(.spring) {
             self.isShowing.toggle()
         }
     }
 
-    func toggleDidPressButton(_ isPressing: Bool) {
+    func handleIsPressingButton(_ isPressing: Bool) {
         withAnimation(.bouncy(extraBounce: 0.1)) {
-            guard isShowing else {
-                self.isPressing = isPressing
-                toggleShowCircularProgress(isPressing)
+            if isPressing && isShowing {
+                isShowing = false
                 return
             }
-            isShowing.toggle()
+
+            self.isPressing = isPressing
+            toggleShowCircularProgress(isPressing)
         }
     }
 
@@ -42,14 +43,13 @@ struct RevealingButtonView: View {
             if isShowing {
                 ButtonsView()
             }
-
             ZStack {
                 Label("Add something", systemImage: "plus.circle.fill")
-                    .withRevealingButtonModifier(isShowing, isPressing, isShowingCircularProgress)
+                    .modifier(RevealingButtonModifier(isShowing: $isShowing, isPressing: $isPressing, isShowingCircularProgress: $isShowingCircularProgress))
                     .onLongPressGesture(minimumDuration: gestureDuration) {
-                        toggleShowButtons()
+                        handleGestureFinished()
                     } onPressingChanged: { isPressing in
-                        toggleDidPressButton(isPressing)
+                        handleIsPressingButton(isPressing)
                     }
             }
         }

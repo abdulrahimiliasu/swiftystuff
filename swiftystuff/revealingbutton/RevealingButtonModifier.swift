@@ -8,29 +8,17 @@
 import SwiftUI
 
 struct RevealingButtonModifier: ViewModifier {
-    let isShowing: Bool
-    let isPressing: Bool
-    let isShowingCircularProgress: Bool
-
-    init(_ isShowing: Bool, _ isPressing: Bool, _ isShowingCircularProgress: Bool) {
-        self.isShowing = isShowing
-        self.isPressing = isPressing
-        self.isShowingCircularProgress = isShowingCircularProgress
-    }
+    @Binding var isShowing: Bool
+    @Binding var isPressing: Bool
+    @Binding var isShowingCircularProgress: Bool
 
     func body(content: Content) -> some View {
         content
             .foregroundStyle(isPressing || isShowing ? .orange : .purple)
             .rotationEffect(.degrees(isPressing || isShowing ? 135 : 0))
+            .overlay(ButtonCircularProgressView(isPressing: $isShowingCircularProgress, isShowing: $isShowing))
             .font(.largeTitle)
             .symbolEffect(.bounce, value: isShowing)
-            .overlay(ButtonCircularProgressView(isShowingCircularProgress, isShowing))
             .scaleEffect(isShowing || isPressing ? 1.5 : 1)
-    }
-}
-
-extension View {
-    func withRevealingButtonModifier(_ isShowing: Bool, _ isPressing: Bool, _ isShowingCircularProgress: Bool) -> some View {
-        modifier(RevealingButtonModifier(isShowing, isPressing, isShowingCircularProgress))
     }
 }
