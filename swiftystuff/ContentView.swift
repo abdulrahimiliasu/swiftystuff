@@ -11,6 +11,13 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                NavigationLink("Mesh Gradient Button") {
+                    if #available(iOS 18.0, *) {
+                        MeshGradientButtonView()
+                    } else {
+                        Text("This view is only available in iOS 18 and newer")
+                    }
+                }
                 NavigationLink("Progressive Blur") {
                     GradientBlurView()
                 }
