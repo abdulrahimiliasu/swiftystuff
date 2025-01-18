@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                NavigationLink("Simple Picker View") {
+                    SimplePickerView()
+                }
                 NavigationLink("Long Press Button View") {
                     LongPressButtonView()
                 }
