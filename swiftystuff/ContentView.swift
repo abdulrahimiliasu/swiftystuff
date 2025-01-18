@@ -10,10 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            NavigationLink("Image Variable Blur View") {
-                ImageVariableBlurView(imageName: "silo", blurRadius: 20, position: .bottom)
-            }
             VStack {
+                NavigationLink("Long Press Button View") {
+                    LongPressButtonView()
+                }
+                NavigationLink("Image Variable Blur View") {
+                    ImageVariableBlurView(imageName: "silo", blurRadius: 20, position: .bottom)
+                }
                 NavigationLink("Mesh Gradient Button") {
                     if #available(iOS 18.0, *) {
                         MeshGradientButtonView()
