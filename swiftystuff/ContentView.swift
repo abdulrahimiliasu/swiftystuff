@@ -11,6 +11,15 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                NavigationLink("Simple Picker View") {
+                    SimplePickerView()
+                }
+                NavigationLink("Long Press Button View") {
+                    LongPressButtonView()
+                }
+                NavigationLink("Image Variable Blur View") {
+                    ImageVariableBlurView(imageName: "silo", blurRadius: 20, position: .bottom)
+                }
                 NavigationLink("Mesh Gradient Button") {
                     if #available(iOS 18.0, *) {
                         MeshGradientButtonView()

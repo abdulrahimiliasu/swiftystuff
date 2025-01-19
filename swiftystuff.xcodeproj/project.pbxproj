@@ -23,6 +23,16 @@
 		481FFBEF2C723C02007F1559 /* LowerIndicatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FFBEE2C723C02007F1559 /* LowerIndicatorsView.swift */; };
 		481FFBF12C723C43007F1559 /* TargetIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FFBF02C723C43007F1559 /* TargetIndicatorView.swift */; };
 		481FFBF32C723C9E007F1559 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FFBF22C723C9E007F1559 /* SliderView.swift */; };
+		4821E40A2D3C753A00420DC9 /* PickerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E4052D3C753A00420DC9 /* PickerButtonView.swift */; };
+		4821E40B2D3C753A00420DC9 /* VelocityHorizontalScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E4032D3C753A00420DC9 /* VelocityHorizontalScroll.swift */; };
+		4821E40C2D3C753A00420DC9 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E3FA2D3C753A00420DC9 /* PrimaryButton.swift */; };
+		4821E40D2D3C753A00420DC9 /* TextContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E4072D3C753A00420DC9 /* TextContentModel.swift */; };
+		4821E40E2D3C753A00420DC9 /* LongPressButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E3FF2D3C753A00420DC9 /* LongPressButtonView.swift */; };
+		4821E40F2D3C753A00420DC9 /* SimplePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E4062D3C753A00420DC9 /* SimplePickerView.swift */; };
+		4821E4102D3C753A00420DC9 /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E3FC2D3C753A00420DC9 /* ImageUtils.swift */; };
+		4821E4112D3C753A00420DC9 /* MeshGradientButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E4012D3C753A00420DC9 /* MeshGradientButtonView.swift */; };
+		4821E4122D3C753A00420DC9 /* ImageVariableBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E3FD2D3C753A00420DC9 /* ImageVariableBlurView.swift */; };
+		4821E4132D3C753A00420DC9 /* TextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4821E4082D3C753A00420DC9 /* TextContentView.swift */; };
 		4829EBFB2C282A9B00DF52CE /* ScollingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829EBFA2C282A9B00DF52CE /* ScollingStackView.swift */; };
 		4840C43E2C0B33CB000C2D3C /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C43D2C0B33CB000C2D3C /* CircularProgressView.swift */; };
 		4840C4402C0CFA45000C2D3C /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C43F2C0CFA45000C2D3C /* LockScreenView.swift */; };
@@ -75,6 +85,16 @@
 		481FFBEE2C723C02007F1559 /* LowerIndicatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerIndicatorsView.swift; sourceTree = "<group>"; };
 		481FFBF02C723C43007F1559 /* TargetIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetIndicatorView.swift; sourceTree = "<group>"; };
 		481FFBF22C723C9E007F1559 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		4821E3FA2D3C753A00420DC9 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		4821E3FC2D3C753A00420DC9 /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		4821E3FD2D3C753A00420DC9 /* ImageVariableBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVariableBlurView.swift; sourceTree = "<group>"; };
+		4821E3FF2D3C753A00420DC9 /* LongPressButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressButtonView.swift; sourceTree = "<group>"; };
+		4821E4012D3C753A00420DC9 /* MeshGradientButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientButtonView.swift; sourceTree = "<group>"; };
+		4821E4032D3C753A00420DC9 /* VelocityHorizontalScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelocityHorizontalScroll.swift; sourceTree = "<group>"; };
+		4821E4052D3C753A00420DC9 /* PickerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerButtonView.swift; sourceTree = "<group>"; };
+		4821E4062D3C753A00420DC9 /* SimplePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePickerView.swift; sourceTree = "<group>"; };
+		4821E4072D3C753A00420DC9 /* TextContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContentModel.swift; sourceTree = "<group>"; };
+		4821E4082D3C753A00420DC9 /* TextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContentView.swift; sourceTree = "<group>"; };
 		4829EBFA2C282A9B00DF52CE /* ScollingStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScollingStackView.swift; sourceTree = "<group>"; };
 		4840C43D2C0B33CB000C2D3C /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		4840C43F2C0CFA45000C2D3C /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
@@ -173,6 +193,58 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
+		4821E3FB2D3C753A00420DC9 /* commons */ = {
+			isa = PBXGroup;
+			children = (
+				4821E3FA2D3C753A00420DC9 /* PrimaryButton.swift */,
+			);
+			path = commons;
+			sourceTree = "<group>";
+		};
+		4821E3FE2D3C753A00420DC9 /* imagevariableblur */ = {
+			isa = PBXGroup;
+			children = (
+				4821E3FC2D3C753A00420DC9 /* ImageUtils.swift */,
+				4821E3FD2D3C753A00420DC9 /* ImageVariableBlurView.swift */,
+			);
+			path = imagevariableblur;
+			sourceTree = "<group>";
+		};
+		4821E4002D3C753A00420DC9 /* longpressbutton */ = {
+			isa = PBXGroup;
+			children = (
+				4821E3FF2D3C753A00420DC9 /* LongPressButtonView.swift */,
+			);
+			path = longpressbutton;
+			sourceTree = "<group>";
+		};
+		4821E4022D3C753A00420DC9 /* meshgradientbutton */ = {
+			isa = PBXGroup;
+			children = (
+				4821E4012D3C753A00420DC9 /* MeshGradientButtonView.swift */,
+			);
+			path = meshgradientbutton;
+			sourceTree = "<group>";
+		};
+		4821E4042D3C753A00420DC9 /* otherstuffs */ = {
+			isa = PBXGroup;
+			children = (
+				4821E4032D3C753A00420DC9 /* VelocityHorizontalScroll.swift */,
+			);
+			path = otherstuffs;
+			sourceTree = "<group>";
+		};
+		4821E4092D3C753A00420DC9 /* simplepicker */ = {
+			isa = PBXGroup;
+			children = (
+				4821E4052D3C753A00420DC9 /* PickerButtonView.swift */,
+				4821E4062D3C753A00420DC9 /* SimplePickerView.swift */,
+				4821E4072D3C753A00420DC9 /* TextContentModel.swift */,
+				4821E4082D3C753A00420DC9 /* TextContentView.swift */,
+			);
+			path = simplepicker;
+			sourceTree = "<group>";
+		};
 		4829EBF92C282A8500DF52CE /* scrollingstackview */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +297,12 @@
 		48D0A94A2B5DC86800E002FC /* swiftystuff */ = {
 			isa = PBXGroup;
 			children = (
+				4821E3FB2D3C753A00420DC9 /* commons */,
+				4821E3FE2D3C753A00420DC9 /* imagevariableblur */,
+				4821E4002D3C753A00420DC9 /* longpressbutton */,
+				4821E4022D3C753A00420DC9 /* meshgradientbutton */,
+				4821E4042D3C753A00420DC9 /* otherstuffs */,
+				4821E4092D3C753A00420DC9 /* simplepicker */,
 				48C27F962C751C2300CB672D /* revealingbutton */,
 				48F84EBF2C5E608900C3D5F7 /* horizontalslider */,
 				4829EBF92C282A8500DF52CE /* scrollingstackview */,
@@ -361,6 +439,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				480376802BD5982F0051ABA8 /* TabBarView.swift in Sources */,
+				4821E40A2D3C753A00420DC9 /* PickerButtonView.swift in Sources */,
+				4821E40B2D3C753A00420DC9 /* VelocityHorizontalScroll.swift in Sources */,
+				4821E40C2D3C753A00420DC9 /* PrimaryButton.swift in Sources */,
+				4821E40D2D3C753A00420DC9 /* TextContentModel.swift in Sources */,
+				4821E40E2D3C753A00420DC9 /* LongPressButtonView.swift in Sources */,
+				4821E40F2D3C753A00420DC9 /* SimplePickerView.swift in Sources */,
+				4821E4102D3C753A00420DC9 /* ImageUtils.swift in Sources */,
+				4821E4112D3C753A00420DC9 /* MeshGradientButtonView.swift in Sources */,
+				4821E4122D3C753A00420DC9 /* ImageVariableBlurView.swift in Sources */,
+				4821E4132D3C753A00420DC9 /* TextContentView.swift in Sources */,
 				4840C43E2C0B33CB000C2D3C /* CircularProgressView.swift in Sources */,
 				4803766E2BD401BD0051ABA8 /* WordDetailsView.swift in Sources */,
 				4840C4402C0CFA45000C2D3C /* LockScreenView.swift in Sources */,

@@ -5,6 +5,15 @@
 
 **Note: Non of these components were tested for production use, this is just for a demo (UI/UX concepts)**
 
+[Simple Picker](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/simplepicker)  
+![Simple Picker GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/simple_picker.gif?raw=true).
+
+[Long Press Button](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/longpressbutton)  
+![Long Press Button GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/long_press_button.gif?raw=true).
+
+[Mesh Gradient Button](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/meshgradientbutton)  
+![Mesh Gradient Button GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/mesh_gradient_button.gif?raw=true).
+
 [Revealing Button](https://github.com/abdulrahimiliasu/swiftystuff/tree/main/swiftystuff/revealingbutton)  
 ![Revealing Button GIF](https://github.com/abdulrahimiliasu/swiftystuff/blob/main/demo/revealing_button.gif?raw=true).
 
