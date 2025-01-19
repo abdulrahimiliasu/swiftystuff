@@ -26,3 +26,4 @@ let sampleContents = [
     TextContentModel(title: "Marathon", description: """
     In SwiftUI, if you want a view to fill the available width and height of its container without explicitly specifying those values, you can rely on layout modifiers that adapt to the container's size
     """, iconName: "figure.run")
+]
